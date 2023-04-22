@@ -14,8 +14,8 @@ permalink: /
 </a>
 <img alt="GitHub" src="https://img.shields.io/github/license/renatonunes74/renatonunes74.github.io.svg?style=for-the-badge">
 <h4>Criado usando <a href="https://pages.github.com/">Github Pages</a> + <a href="https://jekyllrb.com/">Jekyll</a> com o tema <a href="https://github.com/sighingnow/jekyll-gitbook">Gitbook</a></h4>
-<a href="https://renatonunes74.github.io/pages/contatos/">Contatos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="https://renatonunes74.github.io/pages/sobre/">Sobre mim</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="https://renatonunes74.github.io/pages/contatos/">Contatos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="https://renatonunes74.github.io/pages/projetos">Projetos</a>
 <br>
 <br>
