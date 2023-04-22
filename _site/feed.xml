@@ -1,11 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/renatonunes/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/renatonunes/" rel="alternate" type="text/html" /><updated>2023-04-22T16:37:41-03:00</updated><id>http://localhost:4000/renatonunes/feed.xml</id><title type="html">Renato Nunes</title><subtitle>Build Jekyll site with the GitBook style.
-</subtitle><author><name>Renato da Silva Nunes</name></author><entry><title type="html">Jekyll</title><link href="http://localhost:4000/renatonunes/2023-04-22-jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/renatonunes/jekyll</id><content type="html" xml:base="http://localhost:4000/renatonunes/2023-04-22-jekyll.html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-22T18:27:55-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Renato Nunes</title><subtitle>Build Jekyll site with the GitBook style.
+</subtitle><author><name>Renato da Silva Nunes</name></author><entry><title type="html">Jekyll</title><link href="http://localhost:4000/2023-04-22-jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/jekyll</id><content type="html" xml:base="http://localhost:4000/2023-04-22-jekyll.html"><![CDATA[<ul>
   <li><a href="https://jekyllrb.com/resources/">Jekyll Recursos</a>
     <ul>
       <li>lista com temas, plugins, guias e muito mais sobre jekyll</li>
     </ul>
   </li>
-</ul>]]></content><author><name>Renato da Silva Nunes</name></author><summary type="html"><![CDATA[Jekyll Recursos lista com temas, plugins, guias e muito mais sobre jekyll]]></summary></entry><entry><title type="html">Temas para GitHub pages</title><link href="http://localhost:4000/renatonunes/2023-04-22-temas_github_pages.html" rel="alternate" type="text/html" title="Temas para GitHub pages" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/renatonunes/temas_github_pages</id><content type="html" xml:base="http://localhost:4000/renatonunes/2023-04-22-temas_github_pages.html"><![CDATA[<p>Repositório com vários temas disponíveis: <a href="https://jekyllrb.com/docs/themes/">Jekyll Themes</a></p>
+</ul>]]></content><author><name>Renato da Silva Nunes</name></author><summary type="html"><![CDATA[Jekyll Recursos lista com temas, plugins, guias e muito mais sobre jekyll]]></summary></entry><entry><title type="html">Links auxiliares para aprender programação</title><link href="http://localhost:4000/2023-04-22-links_ajuda_programacao.html" rel="alternate" type="text/html" title="Links auxiliares para aprender programação" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/links_ajuda_programacao</id><content type="html" xml:base="http://localhost:4000/2023-04-22-links_ajuda_programacao.html"><![CDATA[<h1 id="html">HTML</h1>
+<ul>
+  <li><a href="html.com">html.com</a></li>
+</ul>
+
+<h1 id="css">CSS</h1>
+<ul>
+  <li><a href="css-tricks.com">css-tricks.com</a></li>
+</ul>
+
+<h1 id="tailwind-css">Tailwind CSS</h1>
+<ul>
+  <li><a href="tailwindcss.com">tailwindcss.com</a></li>
+</ul>
+
+<h1 id="javascript">JavaScript</h1>
+<ul>
+  <li><a href="javaScript.info">javaScript.info</a></li>
+  <li><a href="https://github.com/trekhleb/javascript-algorithms/blob/master/README.pt-BR.md">estruturas de dados e algoritimos em JavaScript</a></li>
+</ul>
+
+<h1 id="dsa">DSA</h1>
+<ul>
+  <li><a href="algorithm-visualizer.org">algorithm-visualizer.org</a></li>
+</ul>
+
+<h1 id="git">Git</h1>
+<ul>
+  <li><a href="git-scm.co">git-scm.co</a></li>
+  <li><a href="https://github.com/github/gitignore">coleção para .gitignore</a></li>
+</ul>
+
+<h1 id="react">React</h1>
+<ul>
+  <li><a href="react-tutotial.app">react-tutotial.app</a></li>
+</ul>
+
+<h1 id="api">API</h1>
+<ul>
+  <li><a href="rapidapi.com/learn">rapidapi.com/learn</a></li>
+</ul>
+
+<h1 id="python">Python</h1>
+<ul>
+  <li><a href="learnpython.com">learnpython.com</a></li>
+</ul>
+
+<h1 id="sql">SQL</h1>
+<ul>
+  <li><a href="sqlbolt.com">sqlbolt.com</a></li>
+</ul>
+
+<h1 id="web3">Web3</h1>
+<ul>
+  <li><a href="learnweb3.io">learnweb3.io</a></li>
+</ul>
+
+<h1 id="terminal">Terminal</h1>
+<ul>
+  <li><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-pt.md">aprendendo a usar a linha de comando</a></li>
+</ul>
+
+<h1 id="outros">Outros</h1>
+<ul>
+  <li><a href="https://roadmap.sh/">mapas conceituais para aprender diferentes linguagens de programação</a></li>
+  <li><a href="https://learn-anything.xyz/">mapas conceituais de diversas aprendizagens</a></li>
+  <li><a href="https://github.com/codecrafters-io/build-your-own-x">aprender programação criando tecnologias do zero</a></li>
+  <li><a href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md">repositório de livros de programação</a></li>
+  <li><a href="https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md#por-que-usar">guia para de habilidades e competencias para a programação</a></li>
+  <li><a href="https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md#por-que-usar">guia para criação de design de sistemas</a></li>
+  <li><a href="https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md#por-que-usar">lista de API’s</a></li>
+</ul>]]></content><author><name>Renato da Silva Nunes</name></author><summary type="html"><![CDATA[HTML html.com]]></summary></entry><entry><title type="html">NixOS / Nix - links auxiliares</title><link href="http://localhost:4000/2023-04-22-nix_links_auxiliares.html" rel="alternate" type="text/html" title="NixOS / Nix - links auxiliares" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/nix_links_auxiliares</id><content type="html" xml:base="http://localhost:4000/2023-04-22-nix_links_auxiliares.html"><![CDATA[<h1 id="nixos">NixOS</h1>
+<ul>
+  <li>blog
+    <ul>
+      <li>home manager, flakes
+        <ul>
+          <li><a href="https://tech.aufomm.com/my-nixos-journey-flakes/">RED TOMATO’S BLOG</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="nix">Nix</h1>
+<h2 id="manuais-auxiliares">Manuais auxiliares</h2>
+<ul>
+  <li>cli
+    <ul>
+      <li><a href="https://github.com/mlvzk/manix">manix</a></li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Renato da Silva Nunes</name></author><summary type="html"><![CDATA[NixOS blog home manager, flakes RED TOMATO’S BLOG]]></summary></entry><entry><title type="html">Temas para GitHub pages</title><link href="http://localhost:4000/2023-04-22-temas_github_pages.html" rel="alternate" type="text/html" title="Temas para GitHub pages" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/temas_github_pages</id><content type="html" xml:base="http://localhost:4000/2023-04-22-temas_github_pages.html"><![CDATA[<p>Repositório com vários temas disponíveis: <a href="https://jekyllrb.com/docs/themes/">Jekyll Themes</a></p>
 <ul>
   <li>GitHub.com #jekyll-theme repos</li>
   <li>jamstackthemes.dev</li>
@@ -34,7 +126,7 @@
       </li>
     </ul>
   </li>
-</ul>]]></content><author><name>Renato da Silva Nunes</name></author><summary type="html"><![CDATA[Repositório com vários temas disponíveis: Jekyll Themes GitHub.com #jekyll-theme repos jamstackthemes.dev jekyllthemes.org jekyllthemes.io jekyll-themes.com]]></summary></entry><entry><title type="html">Funções do tema Gitbook</title><link href="http://localhost:4000/renatonunes/2023-04-22-truques_tema_gitbook.html" rel="alternate" type="text/html" title="Funções do tema Gitbook" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/renatonunes/truques_tema_gitbook</id><content type="html" xml:base="http://localhost:4000/renatonunes/2023-04-22-truques_tema_gitbook.html"><![CDATA[<p>Suportado pela sintaxe <a href="https://kramdown.gettalong.org/quickref.html#block-attributes">kramdowh</a></p>
+</ul>]]></content><author><name>Renato da Silva Nunes</name></author><summary type="html"><![CDATA[Repositório com vários temas disponíveis: Jekyll Themes GitHub.com #jekyll-theme repos jamstackthemes.dev jekyllthemes.org jekyllthemes.io jekyll-themes.com]]></summary></entry><entry><title type="html">Funções do tema Gitbook</title><link href="http://localhost:4000/2023-04-22-truques_tema_gitbook.html" rel="alternate" type="text/html" title="Funções do tema Gitbook" /><published>2023-04-22T00:00:00-03:00</published><updated>2023-04-22T00:00:00-03:00</updated><id>http://localhost:4000/truques_tema_gitbook</id><content type="html" xml:base="http://localhost:4000/2023-04-22-truques_tema_gitbook.html"><![CDATA[<p>Suportado pela sintaxe <a href="https://kramdown.gettalong.org/quickref.html#block-attributes">kramdowh</a></p>
 
 <h1 id="tabelas">Tabelas</h1>
 <h2 id="sintaxe">Sintaxe</h2>

@@ -1,26 +1,41 @@
-{"/renatonunes/pages/contatos/": {
+{"/pages/contatos/": {
     "title": "Contatos",
     "keywords": "Jekyll",
-    "url": "/renatonunes/pages/contatos/",
+    "url": "/pages/contatos/",
     "body": "Essa página contem meus contatos."
-  },"/renatonunes/pages/sobre/": {
+  },"/pages/projetos/": {
+    "title": "Projetos",
+    "keywords": "sobre",
+    "url": "/pages/projetos/",
+    "body": "Lista de projetos em conjunto ou pessoalmente realizados Projedo Vida Perifeira Farmacia Video-Games"
+  },"/pages/sobre/": {
     "title": "Sobre mim",
     "keywords": "sobre",
-    "url": "/renatonunes/pages/sobre/",
-    "body": "Página sobre mim"
-  },"/renatonunes/2023-04-22-truques_tema_gitbook.html": {
+    "url": "/pages/sobre/",
+    "body": "Desenvolvedor Full-Stack Java Olá! Meu nome é Renato Nunes, tenho 19 anos e estudo atualmente no bootcamp Generation Brasil em Full Stack Java. Apaixonado por tecnologia e entusiasta do sistema operacional Linux e do movimento open source. Possuo sólido conhecimento em desenvolvimento Java como Full Stack, incluindo a criação de aplicações CRUD e desenvolvimento web utilizando React, HTML, CSS e JavaScript. Sou dedicado, autodidata e estou sempre buscando aprimorar minhas habilidades para oferecer soluções eficientes e inovadoras para os desafios."
+  },"/2023-04-22-truques_tema_gitbook.html": {
     "title": "Funções do tema Gitbook",
     "keywords": "",
-    "url": "/renatonunes/2023-04-22-truques_tema_gitbook.html",
+    "url": "/2023-04-22-truques_tema_gitbook.html",
     "body": "Suportado pela sintaxe kramdowh Tabelas Sintaxe &lt;div class=\"table-wrapper\" markdown=\"block\"&gt; |title1|title2|title3|title4|title5|title6|title7|title8| |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:| |1|2|3|4|5|6|7|8| |1|2|3|4|5|6|7|8| |1|2|3|4|5|6|7|8| |1|2|3|4|5|6|7|8| &lt;/div&gt; Resultado title1 title2 title3 title4 title5 title6 title7 title8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 Mensagens Sintaxe &gt; mensagem {: .block-tip} &gt;mensagem {: .block-warning} &gt;mensagem {: .block-danger} Resultado mensagem mensagem mensagem"
-  },"/renatonunes/2023-04-22-temas_github_pages.html": {
+  },"/2023-04-22-temas_github_pages.html": {
     "title": "Temas para GitHub pages",
     "keywords": "",
-    "url": "/renatonunes/2023-04-22-temas_github_pages.html",
+    "url": "/2023-04-22-temas_github_pages.html",
     "body": "Repositório com vários temas disponíveis: Jekyll Themes GitHub.com #jekyll-theme repos jamstackthemes.dev jekyllthemes.org jekyllthemes.io jekyll-themes.com Lista interessante Jekyll #documentacao #blog Gitbook #uso Scribble Just the Docs Ramme #fav Chalk"
-  },"/renatonunes/2023-04-22-jekyll.html": {
+  },"/2023-04-22-nix_links_auxiliares.html": {
+    "title": "NixOS / Nix - links auxiliares",
+    "keywords": "",
+    "url": "/2023-04-22-nix_links_auxiliares.html",
+    "body": "NixOS blog home manager, flakes RED TOMATO’S BLOG Nix Manuais auxiliares cli manix"
+  },"/2023-04-22-links_ajuda_programacao.html": {
+    "title": "Links auxiliares para aprender programação",
+    "keywords": "",
+    "url": "/2023-04-22-links_ajuda_programacao.html",
+    "body": "HTML html.com CSS css-tricks.com Tailwind CSS tailwindcss.com JavaScript javaScript.info estruturas de dados e algoritimos em JavaScript DSA algorithm-visualizer.org Git git-scm.co coleção para .gitignore React react-tutotial.app API rapidapi.com/learn Python learnpython.com SQL sqlbolt.com Web3 learnweb3.io Terminal aprendendo a usar a linha de comando Outros mapas conceituais para aprender diferentes linguagens de programação mapas conceituais de diversas aprendizagens aprender programação criando tecnologias do zero repositório de livros de programação guia para de habilidades e competencias para a programação guia para criação de design de sistemas lista de API’s"
+  },"/2023-04-22-jekyll.html": {
     "title": "Jekyll",
     "keywords": "",
-    "url": "/renatonunes/2023-04-22-jekyll.html",
+    "url": "/2023-04-22-jekyll.html",
     "body": "Jekyll Recursos lista com temas, plugins, guias e muito mais sobre jekyll"
   }}
