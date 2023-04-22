@@ -1,0 +1,26 @@
+{"/renatonunes/pages/contatos/": {
+    "title": "Contatos",
+    "keywords": "Jekyll",
+    "url": "/renatonunes/pages/contatos/",
+    "body": "Essa página contem meus contatos."
+  },"/renatonunes/pages/sobre/": {
+    "title": "Sobre mim",
+    "keywords": "sobre",
+    "url": "/renatonunes/pages/sobre/",
+    "body": "Página sobre mim"
+  },"/renatonunes/2023-04-22-truques_tema_gitbook.html": {
+    "title": "Funções do tema Gitbook",
+    "keywords": "",
+    "url": "/renatonunes/2023-04-22-truques_tema_gitbook.html",
+    "body": "Suportado pela sintaxe kramdowh Tabelas Sintaxe &lt;div class=\"table-wrapper\" markdown=\"block\"&gt; |title1|title2|title3|title4|title5|title6|title7|title8| |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:| |1|2|3|4|5|6|7|8| |1|2|3|4|5|6|7|8| |1|2|3|4|5|6|7|8| |1|2|3|4|5|6|7|8| &lt;/div&gt; Resultado title1 title2 title3 title4 title5 title6 title7 title8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 Mensagens Sintaxe &gt; mensagem {: .block-tip} &gt;mensagem {: .block-warning} &gt;mensagem {: .block-danger} Resultado mensagem mensagem mensagem"
+  },"/renatonunes/2023-04-22-temas_github_pages.html": {
+    "title": "Temas para GitHub pages",
+    "keywords": "",
+    "url": "/renatonunes/2023-04-22-temas_github_pages.html",
+    "body": "Repositório com vários temas disponíveis: Jekyll Themes GitHub.com #jekyll-theme repos jamstackthemes.dev jekyllthemes.org jekyllthemes.io jekyll-themes.com Lista interessante Jekyll #documentacao #blog Gitbook #uso Scribble Just the Docs Ramme #fav Chalk"
+  },"/renatonunes/2023-04-22-jekyll.html": {
+    "title": "Jekyll",
+    "keywords": "",
+    "url": "/renatonunes/2023-04-22-jekyll.html",
+    "body": "Jekyll Recursos lista com temas, plugins, guias e muito mais sobre jekyll"
+  }}
