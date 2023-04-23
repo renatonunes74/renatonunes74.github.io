@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include nav.html %}
+    <div class="wrapper">
+        <div class="title">
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="post-list">
+            {% for post in site.postagens %} 
+			{% if post.hidden != true %}
+                {% if post.project == null %}
+            <ul>
+                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+            </ul>
+                {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+</body>
+</html>

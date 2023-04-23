@@ -1,12 +1,11 @@
-# frozen_string_literal: true
+source 'http://rubygems.org'
 
-source "https://rubygems.org"
-
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-gem "jekyll"
+gem 'github-pages'
+gem 'rouge'
+gem 'jekyll'
+gem 'jekyll-mentions'
 gem 'jekyll-feed'
-gem 'jekyll-readme-index'
-gem 'jemoji'
+gem 'jekyll-sitemap'
+gem 'jekyll-gist'
+gem 'jekyll-toc'
 gem 'webrick'
-
-# gem "rails"

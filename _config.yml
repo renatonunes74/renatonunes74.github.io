@@ -1,69 +1,76 @@
-# Configurations
-title:            Renato Nunes
-longtitle:        Renato da Silva Nunes
-author:           Renato da Silva Nunes
-email:            renatonunes74@gmail.com
-description: >
-  Build Jekyll site with the GitBook style.
+# Site
+title:          Renato Nunes
+bio:            'Meu blog pessoal'
+description:    "Simple Jekyll theme for your blog by Taylan Tatlı"
+picture:        'assets/img/Logo.png'
+locale:         pt_BR
+url:            http://taylantatli.me/Ramme
 
-version:          1.0
-gitbook_version:  3.2.3
-
-#url:              'https://renatonunes74.github.io' 
-#baseurl:          '/renatonunes74'
-
-#url:              'https://sighingnow.github.io'
-#baseurl:          '/renatonunes'
-rss:              RSS
-
-# bootstrap: use the remote theme for the site itself
-#remote_theme: renatonunes74/renatonunes74.github.io
-
-toc:
-  enabled: true
-  h_min: 1
-  h_max: 3
-
-# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path:     /assets/gitbook/images/favicon.ico
-
-# markdown render engine.
-markdown:         kramdown
-kramdown:
-  auto_ids:               true
-  input:                  GFM
-  math_engine:            mathjax
-  smart_quotes:           lsquo,rsquo,ldquo,rdquo
-  toc_levels:             1..6
-  syntax_highlighter:     rouge
-  syntax_highlighter_opts:
-    guess_lang:           true
-
-syntax_highlighter_style: colorful
-
-markdown_ext:             markdown,mkdown,mkdn,mkd,md
-
-# Permalinks
-permalink:                /:categories/:year-:month-:day-:title:output_ext
-
-# Disqus comments
-# disqushandler:            sighingnow
-
-exclude:
-  - _drafts
-
+# Jekyll
+#permalink:      /:title/
+#permalink: /:categories/:title/
 collections:
-  pages:
+  postagens:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title
 
-page_width: 800px
+markdown:       kramdown
+highlighter:    rouge
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  parse_block_html: true
+sass:
+  sass_dir: _sass
+  style: compressed
 
-destination:      ./_site
-incremental:      false
-regenerate:       true
+# Social
+# if you don't have any of social below, comment the line.
+#email:
+#twitter: username
+#facebook: username
+#google:
+  #plus: #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+github: renatonunes74
+  #stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin: renato-nunes
+#xing: username
+#instagram: username
+#lastfm: username
+#tumblr: username
+#pinterest: username
+#foursquare: username
+#steam: username
+#dribbble: username
+#youtube: username
+#soundcloud: username
+#weibo: username
+#flickr: username
+#codepen: username
 
-plugins:
+# Paginate
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# Gems
+gems:
+  - jekyll-mentions
   - jekyll-feed
-  - jekyll-readme-index
-  - jemoji
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
