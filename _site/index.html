@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
     <meta charset="UTF-8">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
@@ -44,8 +44,8 @@
 </head>
 
 
-<body>
-        <nav class="nav-home">
+	<body>
+		    <nav class="nav-home">
         <ul class="list">
             
 				    
@@ -63,14 +63,25 @@
         </ul>
     </nav>
 
-    <div class="home">
-        <header class="header-home">
-            <a class="link" href="http://localhost:4000/about/">
-                <img class="selfie" alt="Renato Nunes" src="http://localhost:4000/assets/img/Logo.png">
-            </a>
-            <h1 class="title-home">Renato Nunes</h1>
-            <h2 class="description-home">Meu blog pessoal</h2>
-                        <div class="social-links">
+		<div class="home">
+
+		<header class="header-home">
+			<a class="link" href="http://localhost:4000/about/">
+				<img class="selfie" alt="Renato Nunes" src="http://localhost:4000/assets/img/Logo.png">
+			</a>
+			<h1 class="title-home">Renato Nunes</h1>
+			<h2 class="description-home">Meu blog pessoal</h2>
+			<input type="text" id="search-input" placeholder="Pesquisar...">
+			<ul id="results-container"></ul>
+			<script src="/assets/js/simple-jekyll-search.js"></script>
+			<script>
+				var sjs = SimpleJekyllSearch({
+					searchInput: document.getElementById('search-input'),
+					resultsContainer: document.getElementById('results-container'),
+					json: '/search.json'
+				});
+			</script>
+			            <div class="social-links">
                 
                 
                 
@@ -93,12 +104,12 @@
                 
             </div>
 
-        </header>
-                <footer class="home-footer">
+		</header>
+		        <footer class="home-footer">
             Renato Nunes © 2023 <a href="http://localhost:4000/feed.xml" target="_blank"><i class="fa fa-fw fa-feed"></i></a>
         </footer>
 
-    </div>
-</body>
+		</div>
+	</body>
 
 </html>

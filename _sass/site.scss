@@ -38,7 +38,7 @@ body {
 }
 .header-home {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto -2em;
 	text-align: center;
 	transition: all .7s;
 }
@@ -254,8 +254,16 @@ body {
 }
 .social-links {
 	position: relative;
-	bottom: -2.3em;
 	font-size: 0.85em;
+}
+#search-input {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+#results-container {
+  list-style-type: none;
+  padding-left: 0;
 }
 .author-social {
 	display: inline-block;
