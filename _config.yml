@@ -4,7 +4,7 @@ bio:            'Meu blog pessoal'
 description:    "Simple Jekyll theme for your blog by Taylan Tatlı"
 picture:        'assets/img/Logo.png'
 locale:         pt_BR
-url:            http://taylantatli.me/Ramme
+  #url:            http://taylantatli.me/Ramme
 
 # Jekyll
 collections:
