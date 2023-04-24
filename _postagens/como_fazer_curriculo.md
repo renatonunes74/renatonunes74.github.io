@@ -6,7 +6,7 @@ layout: post
 Informativo de alguns conceitos e métodos para a criação "ideal" de um  curriculum vitae
 
 # Observações
-- Um curriculo "perfeito" não existe pois, não possui um padrão a ser analisado, e tudo depende daquele que ira analisar (uma pessoa e/ou software).
+- Um currículo "perfeito" não existe pois, não possui um padrão a ser analisado, e tudo depende daquele que ira analisar (uma pessoa e/ou software).
 
 ## Evitar
 - Erro de ortografia
@@ -15,15 +15,15 @@ Informativo de alguns conceitos e métodos para a criação "ideal" de um  curri
 # Problemas de analisadores
 - **excesso visual:** utilizar de elementos visuais podem fazer o software ou a pessoa a ter um "bloqueio" na leitura
 
-# Peculariedades
-- Adaptar novos curriculos para atender os requisitos com base nas necessidades da empresa ou do cargo
+# Peculiaridades
+- Adaptar novos currículos para atender os requisitos com base nas necessidades da empresa ou do cargo
 
 # Ferramentas
 ## Analisador de fotos
 - [Snappr](https://www.snappr.com/photo-analyzer/)
 
 # Redes Sociais
-Redes sociais que atualmente os empregadores popurlamente utilizam:
+Redes sociais que atualmente os empregadores popularmente utilizam:
 ## LinkedIn
 ### Links auxiliares
-- https://drive.google.com/file/d/1e3R2Ipl00SwsotaHQ471fwJ08FPDcmPy/view
+- [100 DICAS Para aumentar sua performance no LinkedIn](https://drive.google.com/file/d/1e3R2Ipl00SwsotaHQ471fwJ08FPDcmPy/view)

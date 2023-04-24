@@ -265,6 +265,15 @@ body {
   list-style-type: none;
   padding-left: 0;
 }
+h1:first-of-type::first-letter,
+h2:first-of-type::first-letter,
+h3:first-of-type::first-letter,
+h4:first-of-type::first-letter,
+h5:first-of-type::first-letter,
+p:first-of-type::first-letter,
+li:first-of-type::first-letter {
+	text-transform: capitalize;
+}
 .author-social {
 	display: inline-block;
 	border: 1px solid $color_1;

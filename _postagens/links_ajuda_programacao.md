@@ -3,6 +3,9 @@ title: Links auxiliares para aprender programação
 date: 2023-04-22
 layout: post
 ---
+# sobre
+Lista filtrada de sites que encontrei durante a minha navegação que são voltados a ensinamentos a programação.
+
 # HTML
 - [html.com](html.com)
 
@@ -46,6 +49,6 @@ layout: post
 - [mapas conceituais de diversas aprendizagens](https://learn-anything.xyz/)
 - [aprender programação criando tecnologias do zero](https://github.com/codecrafters-io/build-your-own-x)
 - [repositório de livros de programação](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md)
-- [guia para de habilidades e competencias para a programação](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md#por-que-usar)
+- [guia para de habilidades e competências para a programação](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md#por-que-usar)
 - [guia para criação de design de sistemas](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md#por-que-usar)
 - [lista de API's](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md#por-que-usar)
