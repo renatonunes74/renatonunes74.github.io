@@ -43,6 +43,7 @@ body {
 	transition: all .7s;
 }
 .wrapper {
+	transition: all .7s;
 	width: 50%;
 	height: auto;
 	border: 1px solid $color_1;
@@ -265,14 +266,17 @@ body {
   list-style-type: none;
   padding-left: 0;
 }
-h1:first-of-type::first-letter,
-h2:first-of-type::first-letter,
-h3:first-of-type::first-letter,
-h4:first-of-type::first-letter,
-h5:first-of-type::first-letter,
-p:first-of-type::first-letter,
-li:first-of-type::first-letter {
+h1:first-letter,
+h2:first-letter,
+h3:first-letter,
+h4:first-letter,
+h5:first-letter,
+li:first-letter,
+a:first-letter {
 	text-transform: capitalize;
+}
+p:first-letter {
+	margin-left: 25px;
 }
 .author-social {
 	display: inline-block;
