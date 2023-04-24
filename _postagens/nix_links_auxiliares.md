@@ -1,5 +1,5 @@
 ---
-title: NixOS / Nix - links auxiliares
+title: NixOS e Nix - links auxiliares
 date: 2023-04-22
 layout: post
 ---

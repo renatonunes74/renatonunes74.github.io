@@ -1,0 +1,66 @@
+[
+  
+    {
+      "title"    : "Todas as Postagens",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/postagens/index",
+      "date"     : "2023-04-23 21:44:44 -0300",
+	  "content": "[\n  {% for post in site.postagens %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n\t  \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Jekyll",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/postagens/jekyll",
+      "date"     : "2023-04-22 00:00:00 -0300",
+	  "content": "[\n  {% for post in site.postagens %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n\t  \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Links auxiliares para aprender programação",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/postagens/links_ajuda_programacao",
+      "date"     : "2023-04-22 00:00:00 -0300",
+	  "content": "[\n  {% for post in site.postagens %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n\t  \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Minhas configurações usando o Jellky",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/postagens/meu_jellky",
+      "date"     : "2023-04-23 21:44:44 -0300",
+	  "content": "[\n  {% for post in site.postagens %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n\t  \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "NixOS e Nix - links auxiliares",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/postagens/nix_links_auxiliares",
+      "date"     : "2023-04-22 00:00:00 -0300",
+	  "content": "[\n  {% for post in site.postagens %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n\t  \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Temas para GitHub pages",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/postagens/temas_github_pages",
+      "date"     : "2023-04-22 00:00:00 -0300",
+	  "content": "[\n  {% for post in site.postagens %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n\t  \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "teste",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/postagens/teste",
+      "date"     : "2023-04-23 21:44:44 -0300",
+	  "content": "[\n  {% for post in site.postagens %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n\t  \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } 
+  
+]
