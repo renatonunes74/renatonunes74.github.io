@@ -2,14 +2,16 @@
 layout: none
 ---
 [
-  {% for post in site.postagens %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-	  "content": {{ page.content | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+	{% for post in site.postagens %}
+	{% if post.url != '/postagens/index' %}
+	{
+		"title"    : "{{ post.title | escape }}",
+		"category" : "{{ post.category }}",
+		"tags"     : "{{ post.tags | join: ', ' }}",
+		"url"      : "{{ site.baseurl }}{{ post.url }}",
+		"date"     : "{{ post.date }}",
+		"content": {{ page.content | jsonify }}
+	} {% unless forloop.last %},{% endunless %}
+	{% endif %}
+	{% endfor %}
 ]
