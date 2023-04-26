@@ -10,6 +10,7 @@ jekyll-spaceship:
   # default enabled processors
   processors:
     - mermaid-processor
+    - plantuml-processor
   mermaid-processor:
     mode: default  # mode value 'pre-fetch' for fetching image at building stage
     css:
@@ -20,6 +21,14 @@ jekyll-spaceship:
     config:
       theme: default
     src: https://mermaid.ink/svg/
+  plantuml-processor:
+    mode: default  # mode value 'pre-fetch' for fetching image at building stage
+    css:
+      class: plantuml
+    syntax:
+      code: 'plantuml!'
+      custom: ['@startuml', '@enduml']
+    src: http://www.plantuml.com/plantuml/svg/
 
 # Jekyll
 collections:
