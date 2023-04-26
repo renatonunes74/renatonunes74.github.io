@@ -9,4 +9,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-gist'
 gem 'jekyll-toc'
 gem 'jekyll-frontmatter-jsonify'
+gem 'jekyll-spaceship', group: :jekyll_plugins
 gem 'webrick'

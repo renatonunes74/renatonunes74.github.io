@@ -1,6 +1,5 @@
 ---
-title: Links auxiliares para aprender programação
-date: 2023-04-22
+title: Links de ajuda para aprender programação
 layout: post
 ---
 # sobre
