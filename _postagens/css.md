@@ -1,11 +1,11 @@
 ---
-title: Lista de ajuda na criacao de CSS
+title: Lista de ajuda na criação de CSS
 layout: post
 ---
 # sobre
 lista de sites que ajudam na criação de CSS
 
-- criação de "quadrado" com gradiende, borda, blur etc...
+- criação de "quadrado" com gradientes, borda, blur etc...
     - [hype4.academy - neumorphism](https://hype4.academy/tools/neumorphism-generator)
     - [neumorphism](https://neumorphism.io)
     - [hype4.academy - glassmorphism](https://hype4.academy/tools/glassmorphism-generator)
