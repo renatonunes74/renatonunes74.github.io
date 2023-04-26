@@ -6,7 +6,7 @@ layout: post
 Informativo de alguns conceitos e métodos para a criação "ideal" de um  curriculum vitae
 
 # Observações
-- Um currículo "perfeito" não existe pois, não possui um padrão a ser analisado, e tudo depende daquele que ira analisar (uma pessoa e/ou software).
+- Um currículo "perfeito" não existe pois, não possui um padrão a ser analisado, e tudo depende daquele que ira analisar (uma pessoa e/ou software)
 
 ## Evitar
 - Erro de ortografia
