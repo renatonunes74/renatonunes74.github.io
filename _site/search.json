@@ -6,7 +6,7 @@
 		"category" : "",
 		"tags"     : "",
 		"url"      : "/postagens/como_fazer_curriculo",
-		"date"     : "2023-04-26 11:14:04 -0300",
+		"date"     : "2023-04-27 09:54:33 -0300",
 		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
 	} ,
 	
@@ -17,7 +17,7 @@
 		"category" : "",
 		"tags"     : "",
 		"url"      : "/postagens/css",
-		"date"     : "2023-04-26 11:14:04 -0300",
+		"date"     : "2023-04-27 09:54:33 -0300",
 		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
 	} ,
 	
@@ -28,7 +28,7 @@
 		"category" : "",
 		"tags"     : "",
 		"url"      : "/postagens/diagrama_uml",
-		"date"     : "2023-04-26 11:14:04 -0300",
+		"date"     : "2023-04-27 09:54:33 -0300",
 		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
 	} ,
 	
@@ -39,7 +39,7 @@
 		"category" : "",
 		"tags"     : "",
 		"url"      : "/postagens/ferramentas_organizacionais",
-		"date"     : "2023-04-26 11:14:04 -0300",
+		"date"     : "2023-04-27 09:54:33 -0300",
 		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
 	} ,
 	
@@ -63,7 +63,7 @@
 		"category" : "",
 		"tags"     : "",
 		"url"      : "/postagens/meu_jellky",
-		"date"     : "2023-04-26 11:14:04 -0300",
+		"date"     : "2023-04-27 09:54:33 -0300",
 		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
 	} ,
 	
@@ -85,7 +85,18 @@
 		"category" : "",
 		"tags"     : "",
 		"url"      : "/postagens/programacao",
-		"date"     : "2023-04-26 11:14:04 -0300",
+		"date"     : "2023-04-27 09:54:33 -0300",
+		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
+	} ,
+	
+	
+	
+	{
+		"title"    : "spring security",
+		"category" : "",
+		"tags"     : "",
+		"url"      : "/postagens/spring_security",
+		"date"     : "2023-04-27 09:54:33 -0300",
 		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
 	} ,
 	
@@ -107,7 +118,7 @@
 		"category" : "",
 		"tags"     : "",
 		"url"      : "/postagens/vim",
-		"date"     : "2023-04-26 11:14:04 -0300",
+		"date"     : "2023-04-27 09:54:33 -0300",
 		"content": "[\n\t{% for post in site.postagens %}\n\t{% if post.url != '/postagens/index' %}\n\t{\n\t\t\"title\"    : \"{{ post.title | escape }}\",\n\t\t\"category\" : \"{{ post.category }}\",\n\t\t\"tags\"     : \"{{ post.tags | join: ', ' }}\",\n\t\t\"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n\t\t\"date\"     : \"{{ post.date }}\",\n\t\t\"content\": {{ page.content | jsonify }}\n\t} {% unless forloop.last %},{% endunless %}\n\t{% endif %}\n\t{% endfor %}\n]\n"
 	} 
 	
