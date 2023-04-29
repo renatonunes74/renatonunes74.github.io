@@ -27,13 +27,84 @@ lista de ferramentas voltadas a organização e estruturação em geral (descons
         - desenhos / imagens
 
 ## análise
-- análise PESTEL
+- análise PESTEL / PESTAL
+    - estrutura
+        - politica
+            - como politicas governamentais podem afetar
+        - economia
+            - como condições econômicas podem afetar
+        - sociedade
+            - como tendencias culturais ou sociais podem afetar
+        - tecnologia
+            - inovações / mudanças tecnológicas podem afetar
+        - ecológico
+            - questões ambientais podem afetar
+                - mudança climática
+        - legal
+            - como leis, regulamentações e suas mudanças podem afetar
 - análise de Cenários
 - análise de Viabilidade
 - análise de Stakeholders
 
 ## outros
+- bsc
+- 5W
+    - estrutura
+        - what
+        - why
+        - where
+        - when
+        - who
+        - how
+        - how much
 - brainstorming
+- mapa de empatia
+
+```plantuml!
+@startmindmap
+* Eu
+** O que ele PENSA e SENTE
+*** preciso aprender + de varias coisas
+*** preciso melhorar meu desktop
+** O que ele FALA e FAZ
+*** "use linux"
+*** programo
+*** jogo
+** O que ele VE
+*** programação
+*** jogos
+*** lives
+*** diagramas/métodos
+** O que ele ESCUTA
+*** falar menos rápido
+*** melhore a comunicação
+*** fale mais com as pessoas
+*** voce é inteligente
+** DORES
+*** não comprar um produto realmente últil
+*** não ficar por dentro dos assuntos
+*** esquecer do que faz
+** GANHOS
+@endmindmap
+```
+- matriz de Kano
+    - sobre
+        - exemplifica as reais necessidades x atratividades de algo, como objeto ou até ação, assim mensurando a qualidade
+    - estrutura
+```mermaid!
+graph LR
+A[Recurso] --> B[Atrativo]
+A[Recurso] --> C[Obrigatório]
+A[Recurso] --> D[Indiferente]
+A[Recurso] --> E[Reverso]
+B[Atrativo] --> F[Muito satisfeito]
+B[Atrativo] --> G[Encantado]
+C[Obrigatório] --> H[Insatisfeito se não atender]
+C[Obrigatório] --> I[Satisfeito se atender]
+D[Indiferente] --> J[Não influencia a satisfação]
+E[Reverso] --> K[Insatisfeito se atender]
+```
+- tabela de Kano
 - bspm
 - canvas de modelo de negócios
 - cronograma
@@ -43,12 +114,16 @@ lista de ferramentas voltadas a organização e estruturação em geral (descons
 - diagrama de Ishikawa
 - diagrama de contexto
 - diagrama de fluxo de dados
-- diagrama de pert/cpmmm
+- diagrama de PERT/CPMMM
 - diagrama de sequencia
 - fluxograma
 - gráfico de Pareto
 - heat map
 - kanban
+    - estrutura
+        - fazer
+        - fazendo
+        - feito
 - lean Startup
 - modelagem de Processos de Negócio (BPMN)
 - prototipagem
@@ -59,7 +134,9 @@ lista de ferramentas voltadas a organização e estruturação em geral (descons
 - wireframes
     - partes fundamentais de um layout e elementos de uma interface
 - árvore de Decisão
-    - simplicação para tomada de decisões com base em probabilidade ou fatores
+    - sobre
+        - simplicação para tomada de decisões com base em probabilidade ou fatores
+    - exemplo
 ```mermaid!
 flowchart
 subgraph árvore de decisão simples
@@ -74,7 +151,11 @@ end
 - árvore de Problemas
 
 ## matrizes
-- matriz SWOT (FOFA)
+- matriz SWOT / FOFA / SWOT Pessoal
+    - sobre
+        - analisa como os fatores positivos podem crescer
+        - analisa como os fatores negativos podem diminuir ou serem controladas
+    - exemplo
 ```plantuml!
 package "fatores positivos"{
     package opportunities{
@@ -88,17 +169,19 @@ package "fatores negativos"{
     package threats{
     }
 }
-strengths --r-- weakenesses: internos
+strengths -r- weakenesses: internos
 weakenesses -d[hidden]- threats
 strengths -d[hidden]-> opportunities
-opportunities --r-- threats: externos
+opportunities -r- threats: externos
 ```
-    - objetivo de estudo
-        - marca
-        - loja
-        - produto / serviço
-        - rede social
-        - ...
+    - estrutura
+        - especificar objetivo de estudo
+            - marca
+            - loja
+            - produto / serviço
+            - rede social
+            - você mesmo
+            - ...
 - matriz de Afinidade
 - matriz de Análise de Fluxo de Valor
 - matriz de Análise de Stakeholders
@@ -107,6 +190,17 @@ opportunities --r-- threats: externos
 - matriz de Compatibilidade
 - matriz de Competitividade
 - matriz de Competências
+    - sobre
+        - visa verificar as competencias e saber o que precisa ser "equilibrado"
+    - estrutura
+        - agrupar competencias como categorias / colunas
+    - exemplo
+
+|Funcionario|Java|HTML|
+|-|:-:|:-:|
+|Fulano||x|
+|Renato Nunes |x|x|
+
 - matriz de Comunicação
 - matriz de Custo x Benefício
 - matriz de Decisão
@@ -141,3 +235,7 @@ opportunities --r-- threats: externos
 - modelo em Orientação a Objetos (Object-Oriented Architecture)
 - modelo em Pipeline (Pipeline Architecture)
 - modelo em Serviços Web (Service-Oriented Architecture - SOA)
+
+# Referencias
+- [BlogAbriMinhaEmpresa](https://www.youtube.com/@BlogAbriMinhaEmpresa/videos)
+- [dynamicsme2346](https://www.youtube.com/@dynamicsme2346/videos)

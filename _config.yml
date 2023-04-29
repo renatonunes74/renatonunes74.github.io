@@ -11,6 +11,8 @@ jekyll-spaceship:
   processors:
     - mermaid-processor
     - plantuml-processor
+    - table-processor
+    - mathjax-processor
   mermaid-processor:
     mode: default  # mode value 'pre-fetch' for fetching image at building stage
     css:
